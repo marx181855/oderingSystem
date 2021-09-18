@@ -2,12 +2,30 @@
 	"pages": [
 		{
 			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/list/list"
+		},
+		{
+			"path": "pages/order/list/list"
+		},
+		{
+			"path": "pages/order/balance/balance"
+		},
+		{
+			"path": "pages/order/detail/detail"
+		},
+		{
+			"path": "pages/record/record"
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "点餐系统",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"h5": {
+			"titleNView": false
+		}
 	}
 }

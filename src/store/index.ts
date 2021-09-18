@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state:{
-    title: 'hello uniapp',
+    isReloadOrderList: false,
   },
   getters: {
 
